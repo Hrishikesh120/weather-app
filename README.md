@@ -31,12 +31,12 @@ source weather-app-env/bin/activate
 \```
 
 ### Install Required Libraries:
-\```bash
+\
 pip install -r requirements.txt
 \```
 
 ### Run the Application:
-\```bash
+\```
 python app.py
 \```
 
