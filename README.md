@@ -17,7 +17,7 @@ Developed by: **Hrishikesh Karanth Puttur**
 ### Clone the Repository:
 ```bash
 git clone https://github.com/yourusername/weather-app.git
-cd weather-app
+cd weather-app ```
 
 ### Set Up a Virtual Environment:
 ```bash
