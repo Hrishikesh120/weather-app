@@ -17,11 +17,15 @@ Developed by: Hrishikesh Karanth Puttur
 
 **Clone the Repository:**
    git clone https://github.com/yourusername/weather-app.git
+   
    cd weather-app
 
 **Set Up a Virtual Environment:**
   python -m venv weather-app-env
-  source weather-app-env/bin/activate  # On Windows: weather-app-env\Scripts\activate
+  
+  source weather-app-env/bin/activate  
+  
+ **# On Windows: weather-app-env\Scripts\activate**
 
 
 **Install Required Libraries:**
