@@ -15,10 +15,10 @@ Developed by: **Hrishikesh Karanth Puttur**
 ## How to Run the Project
 
 ### Clone the Repository:
-\```bash
+
 git clone https://github.com/yourusername/weather-app.git
 cd weather-app
-\```
+
 
 ### Set Up a Virtual Environment:
 \```bash
