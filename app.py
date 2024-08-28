@@ -6,6 +6,23 @@ app = Flask(__name__)
 API_KEY = "ad96171a3f768a4396124d737403ac02"
 
 def get_weather(city):
+    url = f'https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API_key}'
+    response = requests.get(url)
+    return response.json()
+
+@app.route('/', methods=['GET','POST'])
+
+def index():
+    weather_data = None
+    if request.method == "POST":
+        city = request.form.get('city')
+        weather_data =  get_weather(city)
+
+    return render_template('index.html', weather=weather_data)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+    
 
 
              
