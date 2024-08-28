@@ -15,37 +15,43 @@ Developed by: **Hrishikesh Karanth Puttur**
 ## How to Run the Project
 
 ### Clone the Repository:
-```bash
+\```bash
 git clone https://github.com/yourusername/weather-app.git
-cd weather-app 
+cd weather-app
+\```
 
-Set Up a Virtual Environment:
-bash
-Copy code
+### Set Up a Virtual Environment:
+\```bash
 python -m venv weather-app-env
 source weather-app-env/bin/activate
 # On Windows: weather-app-env\Scripts\activate
-Install Required Libraries:
-bash
-Copy code
+\```
+
+### Install Required Libraries:
+\```bash
 pip install -r requirements.txt
-Run the Application:
-bash
-Copy code
+\```
+
+### Run the Application:
+\```bash
 python app.py
-Open the app in your browser: Navigate to http://127.0.0.1:5000/ to access the weather app.
+\```
 
-Dependencies
-Python 3.x
-Flask
-Requests
-How It Works
-City-Based Weather: The user inputs a city name, and the app fetches weather data from the OpenWeatherMap API.
-Location-Based Weather: The user clicks a button to fetch weather data based on their current location using the browser's geolocation API.
-5-Day Forecast: The app retrieves a 5-day forecast from the OpenWeatherMap API, displaying temperature, humidity, and a brief weather description.
-Info Button: Clicking the info button displays a description of the PM Accelerator program.
-API Used
-This application uses the OpenWeatherMap API to fetch current weather data and forecasts.
+Open the app in your browser: Navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to access the weather app.
 
-License
+## Dependencies
+- Python 3.x
+- Flask
+- Requests
+
+## How It Works
+- **City-Based Weather**: The user inputs a city name, and the app fetches weather data from the OpenWeatherMap API.
+- **Location-Based Weather**: The user clicks a button to fetch weather data based on their current location using the browser's geolocation API.
+- **5-Day Forecast**: The app retrieves a 5-day forecast from the OpenWeatherMap API, displaying temperature, humidity, and a brief weather description.
+- **Info Button**: Clicking the info button displays a description of the PM Accelerator program.
+
+## API Used
+This application uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch current weather data and forecasts.
+
+## License
 This project is licensed under the MIT License.
