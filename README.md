@@ -24,7 +24,9 @@ cd weather-app
 ### Set Up a Virtual Environment:
 \
 python -m venv weather-app-env
+
 source weather-app-env/bin/activate
+
 # On Windows: weather-app-env\Scripts\activate
 \```
 
