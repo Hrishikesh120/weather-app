@@ -19,9 +19,9 @@ Developed by: **Hrishikesh Karanth Puttur**
 git clone https://github.com/yourusername/weather-app.git
 cd weather-app 
 
-
-### Set Up a Virtual Environment:
-```bash
+Set Up a Virtual Environment:
+bash
+Copy code
 python -m venv weather-app-env
 source weather-app-env/bin/activate
 # On Windows: weather-app-env\Scripts\activate
