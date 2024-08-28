@@ -18,3 +18,10 @@ Developed by: **Hrishikesh Karanth Puttur**
 ```bash
 git clone https://github.com/yourusername/weather-app.git
 cd weather-app 
+
+
+### Set Up a Virtual Environment:
+```bash
+python -m venv weather-app-env
+source weather-app-env/bin/activate
+# On Windows: weather-app-env\Scripts\activate
